@@ -1,0 +1,23 @@
+{
+    "": {
+        "Id": "",
+        "PLL-Case": "",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "Base", "Bold": false, "Visible": true },
+            "5": { "Type": "Base", "Bold": false, "Visible": true },
+            "6": { "Type": "Base", "Bold": false, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 0,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 0,
+            "Category": "",
+            "Description": ""
+        }
+    }
+}

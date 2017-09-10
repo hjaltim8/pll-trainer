@@ -1,0 +1,86 @@
+{
+    "": {
+        "Id": "",
+        "PLL-Case": "U",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "Adjacent", "Bold": true, "Visible": true },
+            "5": { "Type": "___", "Bold": false, "Visible": false },
+            "6": { "Type": "Adjacent", "Bold": true, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": true,
+            "Lights": 1,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 3,
+            "Category": "3-Bar",
+            "Description": "Headlights"
+        }
+    },
+    "": {
+        "Id": "",
+        "PLL-Case": "J",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "Adjacent", "Bold": true, "Visible": true },
+            "5": { "Type": "Adjacent", "Bold": true, "Visible": true },
+            "6": { "Type": "___", "Bold": false, "Visible": false }
+        },
+        "Recognition": {
+            "3-Bar": true,
+            "Lights": 0,
+            "2-Bar": 1,
+            "Bookends": false,
+            "ColorCount": 3,
+            "Category": "3-Bar",
+            "Description": "2-Bar"
+        }
+    },
+    "": {
+        "Id": "",
+        "PLL-Case": "J",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "___", "Bold": false, "Visible": false },
+            "5": { "Type": "Opposite", "Bold": true, "Visible": true },
+            "6": { "Type": "Opposite", "Bold": true, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": true,
+            "Lights": 0,
+            "2-Bar": 1,
+            "Bookends": false,
+            "ColorCount": 3,
+            "Category": "3-Bar",
+            "Description": "2-Bar"
+        }
+    },
+    "": {
+        "Id": "",
+        "PLL-Case": "F",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "Adjacent", "Bold": true, "Visible": true },
+            "5": { "Type": "Adjacent", "Bold": true, "Visible": true },
+            "6": { "Type": "Opposite", "Bold": true, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": true,
+            "Lights": 0,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 4,
+            "Category": "3-Bar",
+            "Description": "4 Colors"
+        }
+    }
+}

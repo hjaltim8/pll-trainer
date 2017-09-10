@@ -82,5 +82,47 @@
             "Category": "Double 2-Bar",
             "Description": "Both inside & Bookends"
         }
+    },
+    "": {
+        "Id": "",
+        "PLL-Case": "U",
+        "Colors": {
+            "1": { "Type": 0, "Bold": false },
+            "2": { "Type": 0, "Bold": false },
+            "3": { "Type": 0, "Bold": false },
+            "4": { "Type": 1, "Bold": false },
+            "5": { "Type": 3, "Bold": false },
+            "6": { "Type": 1, "Bold": false }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 0,
+            "2-Bar": 2,
+            "Bookends": true,
+            "ColorCount": 3,
+            "Category": "Double 2-Bar",
+            "Description": "Both inside & Bookends"
+        }
+    },
+    "": {
+        "Id": "",
+        "PLL-Case": "",
+        "Colors": {
+            "1": { "Type": 0, "Bold": false, "Visible": true },
+            "2": { "Type": 0, "Bold": false, "Visible": true },
+            "3": { "Type": 0, "Bold": false, "Visible": true },
+            "4": { "Type": 0, "Bold": false, "Visible": true },
+            "5": { "Type": 0, "Bold": false, "Visible": true },
+            "6": { "Type": 0, "Bold": false, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 0,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 0,
+            "Category": "",
+            "Description": ""
+        }
     }
 }
