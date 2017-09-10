@@ -1,0 +1,86 @@
+{
+    "A1": {
+        "Id": "A1",
+        "PLL-Case": "A",
+        "Colors": {
+            "1": { "Type": 0, "Bold": false },
+            "2": { "Type": 1, "Bold": true },
+            "3": { "Type": 0, "Bold": true },
+            "4": { "Type": 1, "Bold": false },
+            "5": { "Type": 2, "Bold": false },
+            "6": { "Type": 2, "Bold": false }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 1,
+            "2-Bar": 1,
+            "Bookends": false,
+            "ColorCount": 3,
+            "Category": "Ligths & 2-Bar",
+            "Description": "Outer Bar & 3 Colors"
+        }
+    },
+    "A2": {
+        "Id": "A2",
+        "PLL-Case": "A",
+        "Colors": {
+            "1": { "Type": 0, "Bold": false },
+            "2": { "Type": 1, "Bold": true },
+            "3": { "Type": 0, "Bold": false },
+            "4": { "Type": 3, "Bold": false },
+            "5": { "Type": 3, "Bold": false },
+            "6": { "Type": 3, "Bold": false }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 1,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 0,
+            "Category": "Lone Lights",
+            "Description": "Lights enclose adj (but no checker)"
+        }
+    },
+    "A3": {
+        "Id": "A3",
+        "PLL-Case": "A",
+        "Colors": {
+            "1": { "Type": 0, "Bold": false },
+            "2": { "Type": 0, "Bold": false },
+            "3": { "Type": 2, "Bold": true },
+            "4": { "Type": 3, "Bold": false },
+            "5": { "Type": 3, "Bold": false },
+            "6": { "Type": 0, "Bold": false }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 0,
+            "2-Bar": 1,
+            "Bookends": true,
+            "ColorCount": 4,
+            "Category": "Outside 2-Bar",
+            "Description": "Opposite by Bar & 4 Colors)"
+        }
+    },
+    "A4": {
+        "Id": "A4",
+        "PLL-Case": "A",
+        "Colors": {
+            "1": { "Type": 0, "Bold": true },
+            "2": { "Type": 0, "Bold": false },
+            "3": { "Type": 2, "Bold": false },
+            "4": { "Type": 3, "Bold": false },
+            "5": { "Type": 3, "Bold": false },
+            "6": { "Type": 0, "Bold": true }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 0,
+            "2-Bar": 2,
+            "Bookends": true,
+            "ColorCount": 3,
+            "Category": "Double 2-Bar",
+            "Description": "Both inside & Bookends"
+        }
+    }
+}
