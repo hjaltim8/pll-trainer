@@ -1,0 +1,263 @@
+{
+    "Z1": {
+        "Id": "Z1",
+        "PLL-Case": "Z",
+        "Swaps": {
+            "Corners": 0,
+            "Edges": 4
+        },
+        "Colors": {
+            "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+            "2": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+            "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "5": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+            "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 2,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 2,
+            "Checker": { "Type": "regular", "Count": 6 },
+            "Category": "Double Lights",
+            "Description": "2 Color 6 Checker"
+        }
+    },
+    "Z2": {
+        "Id": "Z2",
+        "PLL-Case": "Z",
+        "Swaps": {
+            "Corners": 0,
+            "Edges": 4
+        },
+        "Colors": {
+            "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+            "2": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+            "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+            "5": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
+            "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 2,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 4,
+            "Checker": null,
+            "Category": "Double Lights",
+            "Description": "Adjacent Edges & 4 Colors"
+        }
+    },
+    "H1": {
+        "Id": "H1",
+        "PLL-Case": "H",
+        "Swaps": {
+            "Corners": 0,
+            "Edges": 4
+        },
+        "Colors": {
+            "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+            "2": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
+            "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+            "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+            "5": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 2,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 4,
+            "Checker": null,
+            "Category": "Double Lights",
+            "Description": "Opposite Edges"
+        }
+    },
+    "U1": {
+        "Id": "U1",
+        "PLL-Case": "U",
+        "Swaps": {
+            "Corners": 0,
+            "Edges": 3
+        },
+        "Multi": {
+            "U": [{
+                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "2": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "B|L", "Bold": false, "Visible": false, "Type": "Either" },
+                "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+            },
+            {
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "2": { "Code": "B|L", "Bold": false, "Visible": false, "Type": "Either" },
+                "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" },
+                "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+            }],
+            "Ua": [{
+                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "2": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
+                "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+            },
+            {
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "2": { "Code": "B", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" },
+                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" },
+                "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" }
+            }],
+            "Ub": [{
+                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "2": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+            },
+            {
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "2": { "Code": "L", "Bold": false, "Visible": true, "Type": "Opposite" },
+                "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" },
+                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" },
+                "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" }
+            }]
+        },
+        "Colors": {},
+        "Recognition": {
+            "3-Bar": true,
+            "Lights": 1,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 3,
+            "Checker": null,
+            "Category": "3-Bar",
+            "Description": "Headlights",
+            "Notes": "Bar on left side: Opposite light -> Ub, Adjacent light -> Ua. Bar on right side: Opposite light -> Ua, Adjacent light -> Ub"
+        }
+    },
+    "U2": {
+        "Id": "U2",
+        "PLL-Case": "U",
+        "Swaps": {
+            "Corners": 0,
+            "Edges": 3
+        },
+        "Multi": {
+            "U": [{
+                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "2": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "B|L", "Bold": false, "Visible": false, "Type": "Either" },
+                "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+            },
+            {
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "2": { "Code": "B|L", "Bold": false, "Visible": false, "Type": "Either" },
+                "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+            }],
+            "Ua": [{
+                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "2": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
+                "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+            },
+            {
+                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "2": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
+            }],
+            "Ub": [{
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "2": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
+                "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+            },
+            {
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "2": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+                "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+            }]
+        },
+        "Colors": {},
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 2,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 3,
+            "Checker": null,
+            "Category": "Double Lights",
+            "Description": "2:1 Pattern & 3 Colors",
+            "Notes": "2:1 Pattern going left -> Ua, going right -> Ub. If 3rd color is opposite, then it is next to the 3-Bar, otherwise it is opposite to the 3-Bar"
+        }
+    },
+
+    "": {
+        "Id": "",
+        "PLL-Case": "",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "Adjacent", "Bold": false, "Visible": true },
+            "5": { "Type": "Base", "Bold": false, "Visible": true },
+            "6": { "Type": "Adjacent", "Bold": false, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 2,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 0,
+            "Category": "Double Lights",
+            "Description": ""
+        }
+    },
+    "": {
+        "Id": "",
+        "PLL-Case": "",
+        "Colors": {
+            "1": { "Type": "Base", "Bold": false, "Visible": true },
+            "2": { "Type": "Base", "Bold": false, "Visible": true },
+            "3": { "Type": "Base", "Bold": false, "Visible": true },
+            "4": { "Type": "Adjacent", "Bold": false, "Visible": true },
+            "5": { "Type": "Base", "Bold": false, "Visible": true },
+            "6": { "Type": "Adjacent", "Bold": false, "Visible": true }
+        },
+        "Recognition": {
+            "3-Bar": false,
+            "Lights": 2,
+            "2-Bar": 0,
+            "Bookends": false,
+            "ColorCount": 0,
+            "Category": "Double Lights",
+            "Description": ""
+        }
+    }
+}
