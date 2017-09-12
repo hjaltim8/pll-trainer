@@ -19,7 +19,11 @@
             "Lights": 2,
             "2-Bar": 0,
             "Bookends": false,
-            "ColorCount": 2,
+            "ColorCount": {
+                "Total": 2,
+                "Corners": 2,
+                "Edges": 2
+            },
             "Checker": { "Type": "regular", "Count": 6 },
             "Category": "Double Lights",
             "Description": "2 Color 6 Checker"
@@ -45,7 +49,11 @@
             "Lights": 2,
             "2-Bar": 0,
             "Bookends": false,
-            "ColorCount": 4,
+            "ColorCount": {
+                "Total": 4,
+                "Corners": 2,
+                "Edges": 2
+            },
             "Checker": null,
             "Category": "Double Lights",
             "Description": "Adjacent Edges & 4 Colors"
@@ -71,7 +79,11 @@
             "Lights": 2,
             "2-Bar": 0,
             "Bookends": false,
-            "ColorCount": 4,
+            "ColorCount": {
+                "Total": 4,
+                "Corners": 2,
+                "Edges": 2
+            },
             "Checker": null,
             "Category": "Double Lights",
             "Description": "Opposite Edges"
@@ -98,7 +110,7 @@
                 "2": { "Code": "B|L", "Bold": false, "Visible": false, "Type": "Either" },
                 "3": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
                 "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
-                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Base" },
+                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
                 "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
             }],
             "Ua": [{
@@ -140,7 +152,11 @@
             "Lights": 1,
             "2-Bar": 0,
             "Bookends": false,
-            "ColorCount": 3,
+            "ColorCount": {
+                "Total": 3,
+                "Corners": 2,
+                "Edges": 2
+            },
             "Checker": null,
             "Category": "3-Bar",
             "Description": "Headlights",
@@ -210,54 +226,19 @@
             "Lights": 2,
             "2-Bar": 0,
             "Bookends": false,
-            "ColorCount": 3,
+            "ColorCount": {
+                "Total": 3,
+                "Corners": 2,
+                "Edges": 2
+            },
             "Checker": null,
             "Category": "Double Lights",
             "Description": "2:1 Pattern & 3 Colors",
             "Notes": "2:1 Pattern going left -> Ua, going right -> Ub. If 3rd color is opposite, then it is next to the 3-Bar, otherwise it is opposite to the 3-Bar"
         }
-    },
-
-    "": {
-        "Id": "",
-        "PLL-Case": "",
-        "Colors": {
-            "1": { "Type": "Base", "Bold": false, "Visible": true },
-            "2": { "Type": "Base", "Bold": false, "Visible": true },
-            "3": { "Type": "Base", "Bold": false, "Visible": true },
-            "4": { "Type": "Adjacent", "Bold": false, "Visible": true },
-            "5": { "Type": "Base", "Bold": false, "Visible": true },
-            "6": { "Type": "Adjacent", "Bold": false, "Visible": true }
-        },
-        "Recognition": {
-            "3-Bar": false,
-            "Lights": 2,
-            "2-Bar": 0,
-            "Bookends": false,
-            "ColorCount": 0,
-            "Category": "Double Lights",
-            "Description": ""
-        }
-    },
-    "": {
-        "Id": "",
-        "PLL-Case": "",
-        "Colors": {
-            "1": { "Type": "Base", "Bold": false, "Visible": true },
-            "2": { "Type": "Base", "Bold": false, "Visible": true },
-            "3": { "Type": "Base", "Bold": false, "Visible": true },
-            "4": { "Type": "Adjacent", "Bold": false, "Visible": true },
-            "5": { "Type": "Base", "Bold": false, "Visible": true },
-            "6": { "Type": "Adjacent", "Bold": false, "Visible": true }
-        },
-        "Recognition": {
-            "3-Bar": false,
-            "Lights": 2,
-            "2-Bar": 0,
-            "Bookends": false,
-            "ColorCount": 0,
-            "Category": "Double Lights",
-            "Description": ""
-        }
     }
+
+    // Maybe store positions under the case:
+    // Z : { positions: { 1: {}, 2: {}, 3: {}, 4: {}}
+    // By doing this it would be possible to store algs as well and have them reference the position to know how to turn the cube...
 }
