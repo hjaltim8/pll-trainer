@@ -237,8 +237,4 @@
             "Notes": "2:1 Pattern going left -> Ua, going right -> Ub. If 3rd color is opposite, then it is next to the 3-Bar, otherwise it is opposite to the 3-Bar"
         }
     }
-
-    // Maybe store positions under the case:
-    // Z : { positions: { 1: {}, 2: {}, 3: {}, 4: {}}
-    // By doing this it would be possible to store algs as well and have them reference the position to know how to turn the cube...
 }

@@ -1,7 +1,7 @@
 {
     "A1": {
-        "Id": "Ax",
-        "PLL-Case": "Ax",
+        "Id": "A1",
+        "PLL-Case": "A",
         "Swaps": {
             "Corners": 3,
             "Edges": 0
@@ -10,16 +10,16 @@
             "Ab": [{
                 "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
                 "2": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "3": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
                 "4": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
                 "6": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" }
             }],
             "Aa": [{
                 "1": { "Code": "L", "Bold": false, "Visible": true, "Type": "Base" },
-                "2": { "Code": "F", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "2": { "Code": "F", "Bold": true, "Visible": true, "Type": "Adjacent" },
                 "3": { "Code": "L", "Bold": false, "Visible": true, "Type": "Base" },
-                "4": { "Code": "F", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "4": { "Code": "F", "Bold": true, "Visible": true, "Type": "Adjacent" },
                 "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Opposite" },
                 "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Opposite" }
             }]
@@ -36,14 +36,14 @@
                 "Edges": 2
             },
             "Checker": { "Type": "regular", "Count": 4 },
-            "Category": "",
-            "Description": "",
-            "Notes": ""
+            "Category": "Lights + 2-Bar",
+            "Description": "Outer Bar and 3 colors",
+            "Notes": "Alternatively: Outer bar and 4-checker"
         }
     },
     "A2": {
-        "Id": "Ax",
-        "PLL-Case": "Ax",
+        "Id": "A2",
+        "PLL-Case": "A",
         "Swaps": {
             "Corners": 3,
             "Edges": 0
@@ -51,18 +51,18 @@
         "Multi": {
             "Ab": [{
                 "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "2": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
-                "3": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
-                "4": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
+                "2": { "Code": "L", "Bold": false, "Visible": false, "Type": "Adjacent" },
+                "3": { "Code": "R", "Bold": false, "Visible": false, "Type": "Adjacent" },
+                "4": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
                 "5": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
                 "6": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" }
             }],
             "Aa": [{
                 "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
                 "2": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "3": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-                "4": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
-                "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "3": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
+                "4": { "Code": "L", "Bold": false, "Visible": false, "Type": "Adjacent" },
+                "5": { "Code": "R", "Bold": false, "Visible": false, "Type": "Adjacent" },
                 "6": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" }
             }]
         },
@@ -78,14 +78,14 @@
                 "Edges": 2
             },
             "Checker": null,
-            "Category": "",
-            "Description": "",
+            "Category": "Outside 2-Bar",
+            "Description": "Opposite by Bar and 4 colors",
             "Notes": ""
         }
     },
     "A3": {
-        "Id": "Ax",
-        "PLL-Case": "Ax",
+        "Id": "A3",
+        "PLL-Case": "A",
         "Swaps": {
             "Corners": 3,
             "Edges": 0
@@ -93,18 +93,18 @@
         "Multi": {
             "Ab": [{
                 "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "2": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "2": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
                 "3": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
-                "5": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "6": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" }
+                "4": { "Code": "R", "Bold": false, "Visible": false, "Type": "Adjacent" },
+                "5": { "Code": "F", "Bold": false, "Visible": false, "Type": "Base" },
+                "6": { "Code": "B", "Bold": false, "Visible": false, "Type": "Opposite" }
             }],
             "Aa": [{
-                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-                "2": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-                "3": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "1": { "Code": "F", "Bold": false, "Visible": false, "Type": "Base" },
+                "2": { "Code": "B", "Bold": false, "Visible": false, "Type": "Opposite" },
+                "3": { "Code": "R", "Bold": false, "Visible": false, "Type": "Adjacent" },
                 "4": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-                "5": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
+                "5": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
                 "6": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" }
             }]
         },
@@ -120,34 +120,34 @@
                 "Edges": 2
             },
             "Checker": null,
-            "Category": "",
-            "Description": "",
-            "Notes": "Every other is the same"
+            "Category": "Lone Lights",
+            "Description": "Lights enclose adjacent (but no checker)",
+            "Notes": "Every other is the same (1,3,5)"
         }
     },
     "A4": {
-        "Id": "Ax",
-        "PLL-Case": "Ax",
+        "Id": "A4",
+        "PLL-Case": "A",
         "Swaps": {
             "Corners": 3,
             "Edges": 0
         },
         "Multi": {
             "Ab": [{
-                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
                 "2": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
                 "3": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
                 "4": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
                 "5": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
-                "6": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" }
+                "6": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" }
             }],
             "Aa": [{
-                "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+                "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
                 "2": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
                 "3": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
                 "4": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
                 "5": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-                "6": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" }
+                "6": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" }
             }]
         },
         "Colors": {},
@@ -162,8 +162,8 @@
                 "Edges": 2
             },
             "Checker": null,
-            "Category": "",
-            "Description": "",
+            "Category": "Double 2-Bar",
+            "Description": "Both inside and bookends",
             "Notes": ""
         }
     },
@@ -176,18 +176,18 @@
         },
         "Colors": [{
             "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-            "2": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" },
-            "3": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-            "4": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
-            "5": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-            "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
+            "2": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "3": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
+            "4": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "5": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
+            "6": { "Code": "R", "Bold": true, "Visible": true, "Type": "Adjacent" }
         },
         {
-            "1": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
-            "2": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
-            "3": { "Code": "B", "Bold": false, "Visible": true, "Type": "Opposite" },
-            "4": { "Code": "L", "Bold": false, "Visible": true, "Type": "Adjacent" },
-            "5": { "Code": "F", "Bold": false, "Visible": true, "Type": "Base" },
+            "1": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
+            "2": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "3": { "Code": "B", "Bold": true, "Visible": true, "Type": "Opposite" },
+            "4": { "Code": "L", "Bold": true, "Visible": true, "Type": "Adjacent" },
+            "5": { "Code": "F", "Bold": true, "Visible": true, "Type": "Base" },
             "6": { "Code": "R", "Bold": false, "Visible": true, "Type": "Adjacent" }
         }],
         "Recognition": {
@@ -201,8 +201,8 @@
                 "Edges": 2
             },
             "Checker": { "Type": "middle is of opposite color to ends", "Count": 5 },
-            "Category": "",
-            "Description": "",
+            "Category": "No bookends",
+            "Description": "5-checker with opposite middle",
             "Notes": "4 Colors, no bars or lights or bookends, and no bar on any other side (since corners are of all colors), and edges are correct in respect to each other"
         }
     }
@@ -210,17 +210,5 @@
     // Maybe store positions under the case:
     // Z : { positions: { 1: {}, 2: {}, 3: {}, 4: {}}
     // By doing this it would be possible to store algs as well and have them reference the position to know how to turn the cube...
-    // Bar location...
-    // Corners have only 2 colors:
-    //  - this tells me that all corners are correct / that is there are at least lights on every side, could be a 3-bar but at least lights
-    //  - This is a EPLL case since all corners are solved (EPLL = U|H|Z)
-    // Corners have 3 colors:
-    //  - Somewhere on the cube, on exactly one side there is a light or a 3-bar, and only on one side
-    //  - This is therefore not an EPLL and not V|Y|N since those have diagonal corners
-    //  - Hence this is one of A|R|G|T|F|J
-    // Corners have 4 colors
-    //  - this tells me that we have a diagonal corner swap, thus no lights anywhere, and no 3-bar anywhere either
-    //  - Hence this is one of E|Y|V|N
     // TODO: filter out PLL algs based on whether edges are adjecent to one another, or opposites, (and maybe even if the adjacent direction tells us anything)
-    // TODO: describe how to find bar location (very similar to corner colors...)
 }
